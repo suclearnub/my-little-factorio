@@ -1,4 +1,4 @@
-local pony = table.deepcopy(data.raw.["player"]["player"])
+local pony = util.table.deepcopy(data.raw["player"]["player"])
 
 pony.name = "Pony"
 pony.healing_per_tick = 0
