@@ -1,0 +1,13 @@
+{
+  "name": "My Little Factorio",
+  "version": "0.0.0",
+  "title": "Avatars",
+  "author": "Emerald",
+  "contact": "internet+factorio@anson-cheung.com",
+  "homepage": "https://github.com/suclearnub/my-little-factorio",
+  "description": "This mod allows players to become ponies.",
+  "dependencies": [
+	"base >= 0.16.0"
+  ],
+  "factorio_version": "0.16"
+}
