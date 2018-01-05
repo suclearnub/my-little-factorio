@@ -1,11 +1,10 @@
-script.on_load(commands.add_command("pony", "Creates a pony for you.", initPony)
+script.on_load(commands.add_command("pony", "Creates a pony for you.", function()
+	  if (checkUserHasPony(game.player) == true) then break
+	  global.ponies[player] = pony
+	)
+)
 
 script.on_event(defines.events.on_player_joined_game, goPony)
-
-function initPony(command)
-  player = game.players[event.player_index]
-  if (checkUserHasPony(game.players[event.player_index]) == true) then break
-  global.ponies[player] = pony
 
 function goPony(event)
   -- When player joins the game, try to swap character for a pony
